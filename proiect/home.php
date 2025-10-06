@@ -73,12 +73,12 @@ while($result = mysqli_fetch_assoc($query)){
             <p>Agent Vânzări IT — MUNCONS SRL</p>
         </div>
 
-        <div class="main-box">
+    </main>
+            <div class="main-box">
             <h2>Harta Mea</h2>
             <p>Mai jos este harta generată din baza de date:</p>
-            <div id="map" style="height:600px;width:100%;"></div>
         </div>
-    </main>
+        <div id="map" style="height:600px;width:100%;margin-top: 10px;"></div>
 
     <script>
         function initMap() {

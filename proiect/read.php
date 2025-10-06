@@ -1,6 +1,6 @@
 <?php
 
-$conn=mysqli_connect("localhost", "root", "") or die(mysqli_error());
+$conn=mysqli_connect("localhost", "root", "Magazin2024") or die(mysqli_error());
 mysqli_select_db($conn, "pai");
 
 $sql_read = "SELECT * FROM map";

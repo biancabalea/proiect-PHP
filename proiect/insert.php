@@ -1,6 +1,6 @@
 <?php
 
-$conn=mysqli_connect("localhost", "root", "") or die(mysqli_error());
+$conn=mysqli_connect("localhost", "root", "Magazin2024") or die(mysqli_error());
 mysqli_select_db($conn, "loginpagev1");
 
 $sql_insert1="INSERT INTO map (latitudine, longitudine, description) VALUES ('45.13726561', '25.74088007','Campina')";
